@@ -65,15 +65,43 @@ The following analyses were performed:
 
 ## ⚙️ Machine Learning Workflow
 
-1. Load Dataset
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Feature Selection
-5. Train-Test Split
-6. Model Training
-7. Model Evaluation
-8. Save Model
-9. Streamlit Deployment
+problem statement
+        |
+collect dataset
+        |
+import libraries
+        |
+load dataset
+        |
+understand dataset
+        |
+Explorary Data Analysis(EDA)
+        |
+Data Cleaning
+        |
+Feature Engineering
+        |
+Feature Selection
+        |
+Encoding catagerical data
+        |
+feature scaling
+        |
+split dataset
+        |
+choose ml learning
+        |
+train model
+        |
+make pretiction
+        |
+evaluate model
+        |
+hyper parameter tunning
+        |
+save model
+        |
+deploy model
 
 ---
 
@@ -105,12 +133,7 @@ House-Price-Prediction/
 ├── house_price_prediction.ipynb
 ├── house_model.pkl
 ├── scaler.pkl
-├── requirements.txt
 ├── README.md
-├── data.csv
-└── images/
-```
-
 ---
 
 ## ▶️ Installation
@@ -160,20 +183,6 @@ streamlit run app.py
 Predicted House Price:
 ₹ 58,75,000
 ```
-
----
-
-## 📷 Application Screenshot
-
-Add screenshots of your Streamlit application here.
-
-Example:
-
-```
-images/homepage.png
-images/prediction.png
-```
-
 ---
 
 ## 📌 Future Enhancements
@@ -188,7 +197,7 @@ images/prediction.png
 
 ## 👩‍💻 Author
 
-**Harini**
+**Harini.K**
 
 B.E. Electronics and Communication Engineering
 
